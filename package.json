@@ -1,7 +1,7 @@
 {
   "name": "blog_server",
   "version": "0.0.1",
-  "description": "Simple server for React-Blog returning JSON with blog items list.",
+  "description": "Simple REST API for React-Blog",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js"
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/NtonBala/Blog-Server#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.15.3",
+    "immutability-helper": "^2.5.0",
     "lodash": "^4.17.4"
   }
 }
